@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-// import How from "../image/how.png";
+import How from "../image/20943566.jpg";
 import MiniCard from "./MiniCard";
 import Play from "../image/play.png";
 
@@ -23,7 +23,7 @@ const Left = styled.div`
 const Image = styled.img`
   display: ${(props) => props.open && "none"};
   height: 100%;
-  margin-left: 100px;
+  margin-left:0px;
 `;
 
 const Video = styled.video`
@@ -113,7 +113,7 @@ const Service = () => {
   return (
     <Container>
       <Left>
-        <Image open={open} src="" />
+        <Image open={open} src={How} />
         <Video
           open={open}
           autoPlay

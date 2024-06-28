@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import App from "../image/app.png";
+import App from "../image/4111-removebg-preview.png";
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -20,6 +20,8 @@ const Left = styled.div`
 
 const Image = styled.img`
   width: 80%;
+  position:relative;
+  top:90px;
 `;
 
 const Right = styled.div`
@@ -68,7 +70,7 @@ const Feature = () => {
   return (
     <Container>
       <Left>
-        <Image src="" />
+        <Image src={App} />
       </Left>
       <Right>
         <Title>

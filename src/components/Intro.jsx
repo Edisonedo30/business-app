@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Cartoon from '../image/cartoon.jpg'
+import Cartoon from '../image/cartoon-removebg.png'
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
